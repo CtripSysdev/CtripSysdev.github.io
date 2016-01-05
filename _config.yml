@@ -60,7 +60,7 @@ JB :
   BASE_PATH : false
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
-  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
+  ex: [BASE_PATH]/assets/themes/bootstrap
   #
   # Override this by defining an absolute path to assets here.
   # ex:
