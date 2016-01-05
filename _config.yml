@@ -22,9 +22,9 @@ markdown: kramdown
 paginate: 10 #pagination based on number of posts
 paginate_path: "page:num"
 
-title: Ctrip_Sysdwv
+title: Ctrip_Sysdev
 author:
-name: Ctrip_Sysdwv
+name: Ctrip_Sysdev
 email: wm.33.44@163.com
 github: ctripsysdev
 twitter: ctripsysdev
