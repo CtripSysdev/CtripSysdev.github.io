@@ -13,8 +13,6 @@ tags : [golang]
 
 不知道在golang新的版本中是否有类似的问题。所以还是**尽量避免创建大量的`map[string]string`**才好。
 
-{% highlight golang %}
-
 ```golang
 package bench
 
@@ -74,7 +72,6 @@ func Test_datatype_memory_map_string(t *testing.T) {
 	t.Logf("prev_heap: %v, heap now: %v, delta: %v/kb", prev_heap, mem_stats.HeapSys, (mem_stats.HeapSys-prev_heap)/1024)
 }
 ```
-{% endhighlight %}
 
 
 ```bash
