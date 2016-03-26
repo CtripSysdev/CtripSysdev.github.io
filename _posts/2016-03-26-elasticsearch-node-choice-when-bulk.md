@@ -8,6 +8,9 @@ abstract: "<div>我们之前用Losgtash做indexer把数据从kafka消费插入ES
 <div>但还是有一个困惑, bulk的一批数据, 可能最终会到多个节点上面索引, 那么是client在发送数据的时候就已经计算好应该把哪些数据发往哪个节点, 还是说随便发到nodeX, 然后nodeX再二次分发.</div>
 <br> <br> "
 categories: elasticsearch
+category : elasticsearch
+tags : [elasticsearch]
+
 ---
 
 # 背景
